@@ -1,0 +1,17 @@
+﻿.visible {
+    visibility: visible;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.labelStyle {
+    border: 1px solid black;
+    border-radius: 22px;
+    padding: 8px;
+}
+
+.record-containing-label {
+    float: right;
+}

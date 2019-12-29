@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-sortable.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+  
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+       
+    </div>
+
+    <script src="~/scripts/jquery-3.0.0.js"></script>
+    <script src="~/scripts/bootstrap.js"></script>
+    <script src="~/scripts/moment.js"></script>
+    <script src="~/scripts/bootstrap-sortable.js"></script>
+    @*<script src="~/scripts/Script.js"></script>*@
+
+    @RenderSection("scripts",false)
+</body>
+</html>
